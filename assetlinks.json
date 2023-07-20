@@ -1,0 +1,27 @@
+{
+  "data":[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.deep_link_app",
+    "sha256_cert_fingerprints":
+    ["00:0E:68:C3:36:E4:9F:13:50:86:9F:BA:4D:0B:D1:7A:83:A8:AF:5B:3E:91:2D:87:35:73:CC:9B:5E:60:2C:E6"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://example.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.deep_link_app",
+    "sha256_cert_fingerprints":
+    ["00:0E:68:C3:36:E4:9F:13:50:86:9F:BA:4D:0B:D1:7A:83:A8:AF:5B:3E:91:2D:87:35:73:CC:9B:5E:60:2C:E6"]
+  }
+}]
+}
